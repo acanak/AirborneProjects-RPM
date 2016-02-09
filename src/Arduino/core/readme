@@ -1,0 +1,3 @@
+The configuration script uses the src tree to lookup paths which must exist for the object and dependency files.As the core Arduino files are not source tracked but are compiled in our build system, the respective object and dependency files will be created and also require the paths to reside. 
+
+This file is useful to add git tracked directory which will be parsed for the above effect.
